@@ -84,7 +84,7 @@
 						}
 					}
 				}
-				var mw1 = cw.object(fun);
+				var mw1 = cw(fun);
 				var mw2 = {
 					data: function(data) {
 						mw1.data(data).then(thenFunc);
